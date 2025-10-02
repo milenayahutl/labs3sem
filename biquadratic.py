@@ -61,7 +61,6 @@ def solve_biquadratic(a, b, c):
     roots = sorted(list(set(roots)))
     return roots
 
-
 def main():
 
     print("Решение биквадратного уравнения: A*x^4 + B*x^2 + C = 0")
