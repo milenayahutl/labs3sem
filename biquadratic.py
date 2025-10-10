@@ -5,16 +5,14 @@ def get_coef(index, prompt):
     while True:
         try:
             coef_str = sys.argv[index]
-        except:
+        except IndexError:
             print(prompt)
             coef_str = input()
-
         try:
             coef = float(coef_str)
             return coef
         except ValueError:
             print("Ошибка: введите действительное число")
-            # Если была ошибка в командной строке, сбрасываем индекс чтобы перейти к вводу с клавиатуры
             if index < len(sys.argv):
                 index = len(sys.argv) + 1
 
@@ -57,9 +55,9 @@ def solve_biquadratic(a, b, c):
         elif t2 == 0 and 0.0 not in roots:
             roots.append(0.0)
 
-    # Убираем возможные дубликаты и сортируем
     roots = sorted(list(set(roots)))
     return roots
+
 
 def main():
 
