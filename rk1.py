@@ -28,11 +28,11 @@ class SchoolchildKlass:
 
 
 klasses = [
-    Klass(1, "11А"),
-    Klass(2, "10Б"),
-    Klass(3, "9А"),
-    Klass(4, "8Б"),
-    Klass(5, "7В")
+    Klass(1, "А11"),
+    Klass(2, "Б10"),
+    Klass(3, "А9"),
+    Klass(4, "Б8"),
+    Klass(5, "В7")
 ]
 
 schoolchildren = [
