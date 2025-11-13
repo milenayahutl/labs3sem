@@ -2,11 +2,11 @@ def field(items, *args):
     assert len(args) > 0
 
     for item in items:
-        if len(args) == 1:
+        if len(args) == 1:    #если передан 1 элемент, возвращаем только его
             key = args[0]
             if key in item and item[key] is not None:
                 yield item[key]
-        else:
+        else:                 #если несколько, возвращаем словарь с нужными
             filtered = {}
             for key in args:
                 if key in item and item[key] is not None:
@@ -15,9 +15,9 @@ def field(items, *args):
                 yield filtered
 
 goods = [
-    {'title': 'Ковер', 'price': 2000, 'color': 'green'},
+    {'title': 'Ковер', 'price': 1700, 'color': 'green'},
     {'title': 'Диван для отдыха', 'color': 'black'},
-    {'title': 'Стол', 'price': 2000},
+    {'title': 'Стол', 'price': 2100},
     {'title': 'Кресло'}
 ]
 
