@@ -2,7 +2,7 @@ from gen_random import gen_random
 
 class unique:
     def __init__(self, items, **kwargs):
-        self.items = iter(items)  #превращаем в итератор
+        self.items = iter(items)
         self.seen = set()
         self.ignore_case = kwargs.get('ignore_case', False)
 

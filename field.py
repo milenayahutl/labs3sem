@@ -2,11 +2,11 @@ def field(items, *args):
     assert len(args) > 0
 
     for item in items:
-        if len(args) == 1:    #если передан 1 элемент, возвращаем только его
+        if len(args) == 1:
             key = args[0]
             if key in item and item[key] is not None:
                 yield item[key]
-        else:                 #если несколько, возвращаем словарь с нужными
+        else:
             filtered = {}
             for key in args:
                 if key in item and item[key] is not None:
