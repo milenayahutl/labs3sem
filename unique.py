@@ -4,9 +4,8 @@ class unique:
     def __init__(self, items, **kwargs):
         self.items = iter(items)  #превращаем в итератор
         self.seen = set()
-        self.ignore_case = kwargs.get('ignore_case', False) #чтобы учитывать или не учитывать регистр букв
-                                                            # **kwargs — способ передать в функцию любое количество
-                                                            #именованных аргументов (ключ=значение).
+        self.ignore_case = kwargs.get('ignore_case', False)
+
     def __next__(self):
         while True:
             try:
@@ -15,7 +14,7 @@ class unique:
                 raise StopIteration
 
             key = item
-            if self.ignore_case and isinstance(item, str):   #если важен регистр, для проверки повторов делает временный key нижнего регистра
+            if self.ignore_case and isinstance(item, str):
                 key = item.lower()
 
             if key not in self.seen:

@@ -5,7 +5,7 @@ from print_result import print_result
 from cm_timer import cm_timer_1
 from gen_random import gen_random
 
-path = sys.argv[1] if len(sys.argv) > 1 else 'C:\\Users\\Milen\\OneDrive\\Документы\\data_light.json'
+path = sys.argv[1] if len(sys.argv) > 1 else 'data_light.json'
 
 with open(path, encoding='utf-8') as f:
     data = json.load(f)
