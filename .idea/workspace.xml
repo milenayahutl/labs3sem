@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85d20477-3148-4a7f-97d7-36703aae29af" name="Changes" comment="add new files">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_11_2025_16_38_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_11_2025_16_38_[Changes]1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_11_2025_16_38__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beverage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_beverage.py" afterDir="false" />
+    <list default="true" id="85d20477-3148-4a7f-97d7-36703aae29af" name="Changes" comment="add lab4 files and tdd test">
+      <change afterPath="$PROJECT_DIR$/bdd test/cafe.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdd test/cafe_steps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_beverage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_beverage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +81,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Milen\PycharmProjects\labs3sem" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Milen\PycharmProjects\labs3sem" />
     </key>
   </component>
@@ -191,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763034006822</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add lab4 files and tdd test">
+      <option name="closed" value="true" />
+      <created>1764021007326</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1764021007326</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,6 +225,7 @@
     <MESSAGE value="deleted unnecessary files" />
     <MESSAGE value="changed klass names" />
     <MESSAGE value="add new files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new files" />
+    <MESSAGE value="add lab4 files and tdd test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lab4 files and tdd test" />
   </component>
 </project>
