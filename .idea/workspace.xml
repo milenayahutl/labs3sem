@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="85d20477-3148-4a7f-97d7-36703aae29af" name="Changes" comment="add new files">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_11_2025_16_38_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_11_2025_16_38_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_11_2025_16_38__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beverage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_beverage.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lab_python_fp" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;milenayahutl&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/milenayahutl/labs3sem.git&quot;,
+    &quot;accountId&quot;: &quot;5acc3e0b-5cd3-43ea-9b3b-bb3b8d27df4b&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="330mMNnGYyo3V5zpnfhkiV5B6ad" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.biquadratic.executor": "Run",
+    "Python.cm_timer.executor": "Run",
+    "Python.field.executor": "Run",
+    "Python.gen_random.executor": "Run",
+    "Python.lab1.executor": "Run",
+    "Python.print_result.executor": "Run",
+    "Python.process_data.executor": "Run",
+    "Python.rk1.executor": "Run",
+    "Python.sort.executor": "Run",
+    "Python.unique.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "lab4",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Milen/PycharmProjects/labs3sem",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "repository"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Milen\PycharmProjects\labs3sem" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-ce6832f46686-7b97d883f26b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.25557.178" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85d20477-3148-4a7f-97d7-36703aae29af" name="Changes" comment="" />
+      <created>1758462315466</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758462315466</updated>
+    </task>
+    <task id="LOCAL-00001" summary="lab1 solving biquadratic">
+      <option name="closed" value="true" />
+      <created>1759393852865</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1759393852865</updated>
+    </task>
+    <task id="LOCAL-00002" summary="lab1 solving biquadratic">
+      <option name="closed" value="true" />
+      <created>1759404949992</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1759404949992</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lab1 solving biquadratic">
+      <option name="closed" value="true" />
+      <created>1759405044330</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1759405044330</updated>
+    </task>
+    <task id="LOCAL-00004" summary="edited smth">
+      <option name="closed" value="true" />
+      <created>1760106842682</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1760106842682</updated>
+    </task>
+    <task id="LOCAL-00005" summary="edited a bit">
+      <option name="closed" value="true" />
+      <created>1762169263979</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1762169263979</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added file rk1">
+      <option name="closed" value="true" />
+      <created>1762172437550</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1762172437550</updated>
+    </task>
+    <task id="LOCAL-00007" summary="deleted unnecessary files">
+      <option name="closed" value="true" />
+      <created>1762172593201</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1762172593201</updated>
+    </task>
+    <task id="LOCAL-00008" summary="changed klass names">
+      <option name="closed" value="true" />
+      <created>1762173636731</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1762173636731</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add new files">
+      <option name="closed" value="true" />
+      <created>1763032178320</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1763032178320</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add new files">
+      <option name="closed" value="true" />
+      <created>1763033777468</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1763033777468</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add new files">
+      <option name="closed" value="true" />
+      <created>1763034006822</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1763034006822</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="9fc3e87d-e9ce-4145-8b9c-32dc0ff0b8c1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="9fc3e87d-e9ce-4145-8b9c-32dc0ff0b8c1">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lab1 solving biquadratic" />
+    <MESSAGE value="edited smth" />
+    <MESSAGE value="edited a bit" />
+    <MESSAGE value="added file rk1" />
+    <MESSAGE value="deleted unnecessary files" />
+    <MESSAGE value="changed klass names" />
+    <MESSAGE value="add new files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new files" />
+  </component>
+</project>
