@@ -6,7 +6,7 @@ from beverage import WhippedCream, ExtraEspresso, Cappuccino
 drink = BeverageFactory.make("Cappuccino")
 
 #допы (структурный)
-drink = WhippedCream(drink)
+drink = WhippedCream(drink) #когда так пишем, создаем объект класса whippedcream
 drink = ExtraEspresso(drink)
 
 print("Drink: ", drink.get_description())

@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85d20477-3148-4a7f-97d7-36703aae29af" name="Changes" comment="add lab4 files and tdd test">
-      <change afterPath="$PROJECT_DIR$/bdd test/cafe.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bdd test/cafe_steps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_order.py" afterDir="false" />
+    <list default="true" id="85d20477-3148-4a7f-97d7-36703aae29af" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/features/cafe.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/steps/cafe_steps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_beverage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_beverage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beverage.py" beforeDir="false" afterPath="$PROJECT_DIR$/beverage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,39 +52,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.biquadratic.executor": "Run",
-    "Python.cm_timer.executor": "Run",
-    "Python.field.executor": "Run",
-    "Python.gen_random.executor": "Run",
-    "Python.lab1.executor": "Run",
-    "Python.print_result.executor": "Run",
-    "Python.process_data.executor": "Run",
-    "Python.rk1.executor": "Run",
-    "Python.sort.executor": "Run",
-    "Python.unique.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "lab4",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Milen/PycharmProjects/labs3sem",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.biquadratic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cm_timer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.field.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gen_random.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.print_result.executor&quot;: &quot;Run&quot;,
+    &quot;Python.process_data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rk1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.unique.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lab4&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Milen/PycharmProjects/labs3sem&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory",
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Milen\PycharmProjects\labs3sem" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Milen\PycharmProjects\labs3sem\bdd test\steps" />
       <recent name="C:\Users\Milen\PycharmProjects\labs3sem" />
     </key>
   </component>
@@ -198,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764021007326</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add tdd test, mock test and smth about bdd test">
+      <option name="closed" value="true" />
+      <created>1764027105396</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1764027105396</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,6 +236,7 @@
     <MESSAGE value="changed klass names" />
     <MESSAGE value="add new files" />
     <MESSAGE value="add lab4 files and tdd test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lab4 files and tdd test" />
+    <MESSAGE value="add tdd test, mock test and smth about bdd test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tdd test, mock test and smth about bdd test" />
   </component>
 </project>

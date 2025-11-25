@@ -1,7 +1,6 @@
 #наблюдатель (уведы о заказе)
 #поведенческий шаблон управляет коммуникацией м/у объектами
 
-
 class Order:
     def __init__(self, order_id, beverage):
         self.order_id = order_id
