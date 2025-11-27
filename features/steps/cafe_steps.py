@@ -22,7 +22,7 @@ def step_impl(context, name):
 
 @when('the order status changes to "{status}"')
 def step_impl(context, status):
-    context.order.set_status(status)
+    context.order.get_status(status)
 
 
 @then('"{name}" should see the message: "{expected_message}"')
