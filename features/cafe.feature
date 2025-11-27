@@ -1,8 +1,7 @@
-Feature: Adding extras to drinks
+Feature: Order status notification
 
-  Scenario: Add whipped cream to cappuccino
-
-    Given i have cappuccino
-    When i add whipped cream
-    Then my drink must have the name "Cappuccino, with whipped cream"
-    And my drink must have the price 2.30
+  Scenario: The order becomes ready → the client receives a notification
+    Given An order with ID "Drink-001" was created
+    And client "TestClient" subscribed to notifications
+    When the order status changes to "ready"
+    Then "TestClient" should see the message: "TestClient, order Drink-001: ready!"

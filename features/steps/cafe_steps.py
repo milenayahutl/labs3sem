@@ -1,21 +1,32 @@
 from behave import given, when, then
-from beverage import Cappuccino, WhippedCream
+from order import Order, Customer
 
-#подготовка
-@given('i have cappuccino')
-def step_impl(context):
-    context.drink = Cappuccino()
 
-#действие
-@when('i add whipped cream')
-def step_impl(context):
-    context.drink = WhippedCream(context.drink)
+@given('An order with ID "{order_id}" was created')
+def step_impl(context, order_id):
+    context.order = Order(order_id, beverage=None)
 
-#проверка
-@then('my drink must have the name "{name}"')
+
+@given('client "{name}" subscribed to notifications')
 def step_impl(context, name):
-    assert context.drink.get_description() == name
+    context.customer = Customer(name)
+    context.messages = []
 
-@then('my drink must have the price {price:g}')
-def step_impl(context, price):
-    assert context.drink.get_price() == price
+    def fake_update(order):
+        msg = f"{name}, order {order.order_id}: {order.status}!"
+        context.messages.append(msg)
+
+    context.customer.update = fake_update
+    context.order.subscribe(context.customer)
+
+
+@when('the order status changes to "{status}"')
+def step_impl(context, status):
+    context.order.set_status(status)
+
+
+@then('"{name}" should see the message: "{expected_message}"')
+def step_impl(context, name, expected_message):
+    assert len(context.messages) > 0, "No messages!"
+    actual_message = context.messages[-1]
+    assert actual_message == expected_message, f"Expected:\n{expected_message}\nGot:\n{actual_message}"

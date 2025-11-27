@@ -1,5 +1,3 @@
-#мок это как бы поддельный объект, чтобы не отправлять реальные уведомления, но он запоминает, сколько раз его вызвали и как
-
 from unittest.mock import Mock
 from order import Order, Customer
 

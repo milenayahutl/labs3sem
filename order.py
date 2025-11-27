@@ -1,5 +1,4 @@
-#наблюдатель (уведы о заказе)
-#поведенческий шаблон управляет коммуникацией м/у объектами
+#поведенческий шаблон
 
 class Order:
     def __init__(self, order_id, beverage):
@@ -11,7 +10,6 @@ class Order:
     def subscribe(self, observer):
         self.observers.append(observer)
 
-    #используется только внутри класса, а не снаружи
     def _notify(self):
         for observer in self.observers:
             observer.update(self)

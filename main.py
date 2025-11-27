@@ -6,19 +6,17 @@ from beverage import WhippedCream, ExtraEspresso, Cappuccino
 drink = BeverageFactory.make("Cappuccino")
 
 #допы (структурный)
-drink = WhippedCream(drink) #когда так пишем, создаем объект класса whippedcream
+drink = WhippedCream(drink) #создаем объект класса whippedcream
 drink = ExtraEspresso(drink)
 
 print("Drink: ", drink.get_description())
 print("Price: ", drink.get_price())
 
-#создаем заказ
 order = Order("Drink-001", drink)
 
-#добавляем клиента для отслеживания статуса заказа (поведенческий)
+#добавляем клиента для отслеживания статуса заказа
 milena = Customer("Milena")
 order.subscribe(milena)
 
-#меняем статус заказа
 order.get_status("preparing")
 order.get_status("ready")
