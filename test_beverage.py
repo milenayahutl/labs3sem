@@ -2,7 +2,7 @@ from beverage import Cappuccino, WhippedCream
 
 def test_Cappuccino():
     capp = Cappuccino()
-    assert capp.get_description() == "Cappuccino"    #если вернуло false, assert не даст дальше идти
+    assert capp.get_description() == "Cappuccino"
     assert capp.get_price() == 2.0
     print("Cappuccino test passed!")
 

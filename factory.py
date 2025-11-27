@@ -1,4 +1,3 @@
-#порождающий шаблон
 from beverage import Cappuccino, Latte
 
 class BeverageFactory:

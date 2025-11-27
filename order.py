@@ -1,5 +1,3 @@
-#поведенческий шаблон
-
 class Order:
     def __init__(self, order_id, beverage):
         self.order_id = order_id
@@ -16,7 +14,7 @@ class Order:
 
     def get_status(self, new_status):
         self.status = new_status
-        self._notify() #когда статус меняется, уведомляем пользователя
+        self._notify()
 
 class Customer:
     def __init__(self, name):

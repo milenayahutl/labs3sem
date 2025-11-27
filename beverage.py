@@ -15,7 +15,6 @@ class Latte(Beverage):
     def __init__(self):
         super().__init__("Latte", 3.0)
 
-#декораторы "оборачивают" напиток
 class ExtraEspresso:
     def __init__(self, beverage):
         self.beverage = beverage
